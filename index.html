@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <img src="mosque.jpg" alt="" class="mosque">
+        <header>
+            <a href="" class="logo">রমাজান</a>
+            <div class="toggle"></div>
+            <ul class="navigation">
+              <li><a href="" class="active">প্রথম পাতা</a></li>
+              <li><a href="" >আমাদের সম্পর্কে</a></li>
+              <li><a href="" >পঞ্জিকা</a></li>
+              <li><a href="" >কলাম</a></li>
+              <li><a href="" >যোগাযোগ</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>রমজানের শুভেচ্ছা</h2>
+                <P>শুভেচ্ছা, মাহে রমজান। বছর ঘুরে আবারও শুরু হয়েছে পবিত্র মাহে রমজান। রমজান মাসের রোজার গুরুত্ব ও প্রতিদান অপরিসীম। রোজার গুরুত্ব বোঝাতে গিয়ে আল্লাহ তাআলা কোরআনে বলেন, ‘রমজান মাস, এতে মানুষের দিশারি এবং সপথের স্পষ্ট নিদর্শন ও সত্যাসত্যের পার্থক্যকারীরূপে কোরআন অবতীর্ণ হয়েছে। সুতরাং তোমাদের মধ্যে যারা এই মাস পাবে, তারা যেন এই মাসে রোজা পালন করে।’ (সুরা : বাকারা, আয়াত :  ১৮৫)</P>
+                <a href="">...পুরোটা পড়ুন</a>
+            </div>
+        </div>
+
+        <ul class="sci">
+            <li><a target="_blank" href="https://www.facebook.com/bohemianrazib/"><img src="facebook.png" alt=""></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/bohemianrazib/"><img src="instagram.png" alt=""></a></li>
+            <li><a target="_blank" href="https://twitter.com/bohemianrazib"><img src="twitter.png" alt=""></a></li>
+        </ul>
+    </section>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const navigation = document.querySelector('.navigation');
+        menuToggle.onclick = function(){
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
